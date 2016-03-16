@@ -168,7 +168,7 @@ outfile3<-sub(".txt","_step3_network.rdata",infile) #rdata
 outfile4<-sub(".txt","_TOM",infile) #rdata for TOM
 
 #parameters to change
-no.maxBlockSize=10000
+no.maxBlockSize=40000
 
 data<-read.table(file=infile,header=T,row.names=1,sep="\t",as.is=T,check.names=F)
 
